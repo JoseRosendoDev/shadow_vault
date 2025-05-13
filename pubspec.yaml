@@ -1,0 +1,45 @@
+name: shadow_vault
+description: "shadow_vault"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  objectbox: ^4.0.3
+  objectbox_flutter_libs: ^4.0.3
+  objectbox_generator: ^4.0.3
+  bloc: ^9.0.0
+  easy_localization: ^3.0.7+1
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.0.0
+  password_repository: 
+    path: 'packages/password_repository'
+  auth_local_repository: 
+    path: 'packages/auth_local_repository'
+  ocr_repository: 
+    path: 'packages/ocr_repository'
+  meta: ^1.15.0
+
+  no_screenshot: ^0.3.1
+  cupertino_icons: ^1.0.8
+  fluttertoast: ^8.2.12
+  mocktail: ^1.0.4
+  bloc_test: ^10.0.0
+  equatable: ^2.0.7
+  mockito: ^5.4.5
+  shared_preferences: ^2.5.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.15
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/translations/
